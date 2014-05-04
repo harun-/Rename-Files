@@ -48,7 +48,7 @@ public class RenameFiles {
 
 				try {
 					if (file.renameTo(newFileName)) {
-						System.out.println("File renamed successfull !");
+						System.out.println("File No." + counter + "renamed successfull !");
 					} else {
 						System.out.println("File rename operation failed !");
 					}
